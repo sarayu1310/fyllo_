@@ -1,0 +1,163 @@
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  z-index: 1000;
+  padding: 0 2rem;
+}
+
+.logo {
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-text {
+  font-size: 13px;
+  font-weight: 500;
+  color: green;
+}
+
+.nav-links {
+  display: flex;
+  color: #212121;
+  margin-right: 50px;
+}
+
+.nav-links li {
+  margin-left: 10px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.nav-links a {
+  font-size: 16px;
+  font-weight: 300;
+  color: #212121;
+  text-decoration: none;
+  margin-right: 1rem;
+  transition: all 0.3s;
+}
+
+.navbar .menu-icons {
+  background: transparent;
+  border: none;
+  display: none;
+} */
+
+
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  z-index: 1000;
+  padding: 0 2rem;
+}
+
+.logo {
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-text {
+  font-size: 13px;
+  font-weight: 500;
+  color: #145A2F;
+}
+
+.nav-links {
+  display: flex;
+  color: #212121;
+  margin-right: 50px;
+  gap: 20px;
+}
+
+.nav-links li {
+  margin-left: 10px;
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.nav-links li:active {
+  color: green;
+}
+
+.nav-links a {
+  font-size: 16px;
+  font-weight: 300;
+  color: #212121;
+  text-decoration: none;
+  margin-right: 1rem;
+  transition: all 0.3s;
+}
+
+.dropdown-title {
+  font-size: 16px;
+  font-weight: 300;
+  color: #212121;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  width: 100px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  display: none;
+  z-index: 1001;
+  padding: 8px 0;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  padding: 8px 13px;
+  white-space: nowrap;
+}
+
+.dropdown-menu li a {
+  color: black;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+  transition: background 0.3s;
+}
+
+.dropdown-menu li:hover {
+  background: #f1f1f1;
+  border-radius: 10px;
+  width: 80px;
+}
+
+.mainlogo{
+  width: 150px;
+  margin-left: 30px;
+}
