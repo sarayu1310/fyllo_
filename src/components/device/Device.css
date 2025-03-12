@@ -13,7 +13,7 @@
 .image-device img {
     margin-left: 90px;
     width: 500px;
-    height: 400px;
+    height: 450px;
     /* border: 2px solid rgb(54, 54, 54); */
     border-radius: 10px;
     background-color: rgb(0 0 0 / 81%);
@@ -22,7 +22,7 @@
 .image1-device img {
     margin-right: 70px;
     width: 450px;
-    height: 300px;
+    height: 350px;
     border: 2px solid rgb(54, 54, 54);
     border-radius: 10px;
     background-color: rgb(0 0 0 / 81%);

@@ -11,12 +11,10 @@
   }
   
   .contact-info {
-    /* flex: 1; */
     min-width: 300px;
     margin: 20px;
-    /* background-color: white; */
     color: white;
-    margin-left: 250px;
+    margin-left: 150px;
     margin-top: 60px;
     align-items: center;
     justify-content: center;
@@ -29,7 +27,7 @@
     width: 600px;
     background-color: white;
     margin-top: 50px;
-    margin-right: 250px;
+    margin-right: 100px;
     border-radius: 10px;
   }
   
