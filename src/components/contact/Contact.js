@@ -1,23 +1,3 @@
-// import React from 'react'
-
-// const Contact = () => {
-//   return (
-//     <div><br/><br/><br/><br/><br/>
-//       <div className="text-center my-4">
-//       <h1>Get connected</h1>
-//         <p>
-//         Join the Fyllo Community and Connect with Farmers to Revolutionize Agriculture Together
-//         </p>
-//       </div><br/>
-//     </div>
-//   )
-// }
-
-// export default Contact
-
-
-
-
 import React from "react";
 import "./Contact.css";
 
@@ -27,7 +7,7 @@ const Contact = () => {
       <div className="text-center my-4">
       <h1>Get connected</h1>
         <p>
-        Join the Fyllo Community and Connect with Farmers to Revolutionize Agriculture Together
+        Join the Saarthi Community and Connect with Farmers to Revolutionize Agriculture Together
         </p>
       </div><br/>
     <div className="contact-container">

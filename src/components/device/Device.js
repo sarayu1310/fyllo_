@@ -68,7 +68,7 @@ const Device = () => {
           • Rainfall, wind speed, and wind direction
           </p> 
           <div className="price-container">
-            <p className="price1"><strong style={{fontWeight: "bold", fontSize: "25px"}}>₹ 25,000/-</strong> <span className="only-text">only</span></p>
+            <p className="price1"><strong style={{fontWeight: "bold", fontSize: "25px"}}>₹ 45,000/-</strong> <span className="only-text">only</span></p>
             <Link to="/contact" style={{textDecoration: "none"}}><button className="book-now">Book Now →</button></Link>
           </div>
         </div>
